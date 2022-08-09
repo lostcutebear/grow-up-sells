@@ -1,7 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  background: #E5E5E5;
 }
 
 .btn {
@@ -176,4 +175,38 @@ body {
   font-size: 15px;
   line-height: 32px;
   color: #0555FF;
+}
+.main__develop-container {
+  max-width: 1292px;
+  height: auto;
+  margin: 0 auto;
+}
+.main__develop-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__develop-text h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 91px;
+}
+.main__develop-text p {
+  width: 510px;
+  margin: 30px 0 40px 0;
+  font-size: 20px;
+  line-height: 32px;
+  color: #5b5e6d;
+}
+.main__develop-text a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #000;
+  text-decoration: underline;
+  text-underline-position: under;
+  -webkit-text-decoration-color: #0555FF;
+          text-decoration-color: #0555FF;
+  text-decoration-thickness: 2px;
 }/*# sourceMappingURL=style.css.map */
