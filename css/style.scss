@@ -208,5 +208,30 @@ body {
             text-align: center;
             color: #5B5E6D;
         }
+
+    }
+    
+    &__about-link {
+        margin: 0 auto;
+        padding: 9px 0;
+        background: rgba(5, 85, 255, 0.1);
+        border-radius: 30px;
+        width: 245px;
+        text-align: center;
+        & span {
+            display: inline-block;
+            border-radius: 50%;
+            width: 24.3px;
+            height: 24.3px;
+            background: #fff;
+            color: #0555FF;
+            vertical-align: middle;
+        }
+        & a {
+            margin-left: 13.35px;
+            font-size: 15px;
+            line-height: 32px;
+            color: #0555FF;
+        }
     }
 }
