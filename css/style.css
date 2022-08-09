@@ -118,4 +118,20 @@ body {
 .main__privary-container {
   padding-bottom: 150px;
   text-align: center;
+}
+.main__partners-container {
+  padding-bottom: 164px;
+  max-width: 956px;
+  margin: 0 auto;
+}
+.main__partners-text {
+  margin-bottom: 28px;
+  color: #5B5E6D;
+  font-size: 16px;
+  line-height: 19.36px;
+  text-align: center;
+}
+.main__partners-wrapper {
+  display: flex;
+  gap: 51.83px;
 }/*# sourceMappingURL=style.css.map */
