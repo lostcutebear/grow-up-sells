@@ -3,6 +3,11 @@ body {
   font-weight: 400;
 }
 
+.container {
+  max-width: 1292px;
+  margin: 0 auto;
+}
+
 .btn {
   width: 180px;
   background: rgb(5, 85, 255);
@@ -176,30 +181,32 @@ body {
   line-height: 32px;
   color: #0555FF;
 }
-.main__develop-container {
-  max-width: 1292px;
-  height: auto;
-  margin: 0 auto;
-}
-.main__develop-wrapper {
+.main__develop-wrapper, .main__build-wrapper, .main__update-wrapper {
   display: flex;
   align-items: center;
+}
+.main__develop-wrapper, .main__update-wrapper {
   justify-content: space-between;
 }
-.main__develop-text h3 {
+.main__build-wrapper {
+  max-width: 1566px;
+  justify-content: flex-start;
+  gap: 176px;
+}
+.main__develop-text h3, .main__build-text h3, .main__update-text h3 {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 800;
   font-size: 72px;
   line-height: 91px;
 }
-.main__develop-text p {
+.main__develop-text p, .main__build-text p, .main__update-text p {
   width: 510px;
   margin: 30px 0 40px 0;
   font-size: 20px;
   line-height: 32px;
   color: #5b5e6d;
 }
-.main__develop-text a {
+.main__develop-text a, .main__build-text a, .main__update-text a {
   font-weight: 500;
   font-size: 18px;
   line-height: 21.78px;
@@ -209,4 +216,7 @@ body {
   -webkit-text-decoration-color: #0555FF;
           text-decoration-color: #0555FF;
   text-decoration-thickness: 2px;
+}
+.main__update {
+  padding-bottom: 196px;
 }/*# sourceMappingURL=style.css.map */

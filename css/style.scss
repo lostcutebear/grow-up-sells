@@ -12,6 +12,11 @@ body {
     font-weight: 400;
 }
 
+.container {
+    max-width: 1292px;
+    margin: 0 auto;
+}
+
 .btn {
     width: 180px;
     background: rgba(5, 85, 255, 1);
@@ -237,18 +242,21 @@ body {
 
 
 
-    &__develop-container {
-        max-width: 1292px;
-        height: auto;
-        margin: 0 auto;
+    &__develop-wrapper, &__build-wrapper, &__update-wrapper {
+        @include flex;
     }
 
-    &__develop-wrapper {
-        @include flex;
+    &__develop-wrapper, &__update-wrapper {
         justify-content: space-between;
     }
 
-    &__develop-text {
+    &__build-wrapper {
+        max-width: 1566px;
+        justify-content: flex-start;
+        gap: 176px;
+    }
+
+    &__develop-text, &__build-text, &__update-text {
         & h3 {
             font-family: $jakatra;
             font-weight: 800;
@@ -276,4 +284,7 @@ body {
         }
     }
 
+    &__update {
+        padding-bottom: 196px;
+    }
 }
