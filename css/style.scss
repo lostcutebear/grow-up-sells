@@ -1,0 +1,124 @@
+$inter: 'Inter', sans-serif;
+$jakatra: 'Plus Jakarta Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: $inter;
+    font-weight: 400;
+    background: #E5E5E5;
+}
+
+.btn {
+    width: 180px;
+    background: rgba(5, 85, 255, 1);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #fff;
+}
+
+.header {
+    padding: 35px 35px 118px 35px; 
+    &__container {
+        max-width: 1243px;
+        margin: 0 auto;
+    }
+
+    &__nav nav{
+        @include flex;
+        justify-content: space-between;
+    }
+
+    &__nav-logo {
+        font-size: 36px;
+        line-height: 42.19px;
+        font-family: $roboto;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 1);
+    }
+    
+    &__nav-list {
+        display: flex;
+        gap: 70px;
+
+        & li a {
+            font-size: 16px;
+            line-height: 19.36px;
+            color: rgba(5, 0, 56, 1);
+        }
+    }
+
+    &__sign-in {
+        width: 87px; 
+        margin-right: 35px;
+        background: transparent;
+        border: none;
+        font-size: 18px;
+        font-weight: $roboto;
+        line-height: 21.09px;
+        color: rgba(5, 0, 56, 1);
+    }
+
+    &__try-for-free {
+        padding: 13px 0 13px 32px;
+        text-align: left;
+    }
+}
+
+.main {
+    &__grow-container {
+        max-width: 953px;
+        margin: 0 auto;
+    }
+
+    &__grow-title {
+        font-family: $jakatra;
+        font-weight: 800;
+        font-size: 96px;
+        line-height: 120px;
+        text-align: center;
+    }
+
+    &__grow-text {
+        margin: 35px auto 40px;
+        width: 705px;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: rgba(91, 94, 109, 1);
+    }
+
+    &__grow-buttons {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__grow-try-for-free, &__grow-discover {
+        padding: 20px 0 19px 36px;
+    }
+
+    &__grow-try-for-free { 
+        width: 208px;
+        text-align: left;
+    }
+
+    &__grow-discover {
+        margin-left: 20px;
+        background: #fff;
+        text-align: left;
+        box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.3);
+        width: 251px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+        color: rgba(5, 85, 255, 1);
+    }
+}
