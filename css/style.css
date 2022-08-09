@@ -135,7 +135,7 @@ body {
   line-height: 19.36px;
   text-align: center;
 }
-.main__partners-wrapper {
+.main__partners-img-wrapper {
   display: flex;
   gap: 51.83px;
 }
@@ -159,12 +159,17 @@ body {
   color: #5B5E6D;
 }
 .main__about-link {
+  display: block;
   margin: 0 auto;
   padding: 9px 0;
   background: rgba(5, 85, 255, 0.1);
   border-radius: 30px;
   width: 245px;
   text-align: center;
+  transition: 0.4s;
+}
+.main__about-link:hover {
+  background: rgba(1, 40, 123, 0.173);
 }
 .main__about-link span {
   display: inline-block;
@@ -190,6 +195,7 @@ body {
 }
 .main__build-wrapper {
   max-width: 1566px;
+  margin: 0 auto;
   justify-content: flex-start;
   gap: 176px;
 }

@@ -182,7 +182,7 @@ body {
         text-align: center;
     }
     
-    &__partners-wrapper {
+    &__partners-img-wrapper {
         display: flex;
         gap: 51.83px;
     }
@@ -216,12 +216,17 @@ body {
     }
     
     &__about-link {
+        display: block;
         margin: 0 auto;
         padding: 9px 0;
         background: rgba(5, 85, 255, 0.1);
         border-radius: 30px;
         width: 245px;
         text-align: center;
+        transition: 0.4s;
+        &:hover {
+            background: rgba(1, 40, 123, 0.173);
+        }
         & span {
             display: inline-block;
             border-radius: 50%;
@@ -231,6 +236,7 @@ body {
             color: #0555FF;
             vertical-align: middle;
         }
+
         & a {
             margin-left: 13.35px;
             font-size: 15px;
@@ -252,6 +258,7 @@ body {
 
     &__build-wrapper {
         max-width: 1566px;
+        margin: 0 auto;
         justify-content: flex-start;
         gap: 176px;
     }
