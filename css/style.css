@@ -134,4 +134,23 @@ body {
 .main__partners-wrapper {
   display: flex;
   gap: 51.83px;
+}
+.main__about-container {
+  max-width: 897px;
+  margin: 0 auto;
+}
+.main__about-wrapper h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 53.13px;
+  text-align: center;
+}
+.main__about-wrapper p {
+  margin: 30px auto 50px;
+  width: 778px;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #5B5E6D;
 }/*# sourceMappingURL=style.css.map */
