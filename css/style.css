@@ -58,7 +58,14 @@ body {
   padding: 13px 0 13px 32px;
   text-align: left;
 }
+.header__try-for-free:hover {
+  background: rgb(7, 57, 164);
+  transition: background 0.4s linear;
+}
 
+.main__grow {
+  padding-bottom: 100px;
+}
 .main__grow-container {
   max-width: 953px;
   margin: 0 auto;
@@ -89,6 +96,10 @@ body {
   width: 208px;
   text-align: left;
 }
+.main__grow-try-for-free:hover {
+  background: rgb(7, 57, 164);
+  transition: background 0.4s linear;
+}
 .main__grow-discover {
   margin-left: 20px;
   background: #fff;
@@ -98,5 +109,13 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 24.2px;
-  color: rgb(5, 85, 255);
+  color: rgb(5, 84, 255);
+}
+.main__grow-discover:hover {
+  background: #e5e5e5;
+  transition: background 0.4s linear;
+}
+.main__privary-container {
+  padding-bottom: 150px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
