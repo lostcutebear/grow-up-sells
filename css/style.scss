@@ -225,7 +225,7 @@ body {
         text-align: center;
         transition: 0.4s;
         &:hover {
-            background: rgba(1, 40, 123, 0.173);
+            background: rgba(1, 40, 123, 0.173)
         }
         & span {
             display: inline-block;
@@ -294,4 +294,103 @@ body {
     &__update {
         padding-bottom: 196px;
     }
+
+
+
+
+    &__testimonials {
+        background: #F8F8FA;
+    }
+
+    &__testimonials-container {
+        max-width: 1350px;
+        padding: 150px 0;
+        margin: 0 auto;
+    }
+
+    &__testimonials-text {
+        & p {
+            line-height: 32px;
+            text-align: center;
+            color: #5B5E6D;
+        }
+
+        & h3 {
+            padding: 40px 0 70px 0;
+            font-size: 72px;
+            font-family: $jakatra;
+            font-weight: 800;
+            line-height: 32px;
+            text-align: center;
+            color: #050038;
+        }
+    }
+
+      &__testimonials-tweet-wrapper{
+        @include flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+     }
+      &__tweet-lisa-profile{
+    
+    }
+      &__tweet-lisa-name{
+    
+    }
+      &__tweet-logo{
+    
+    }
+      &__tweet-lisa-comment{
+    
+    }
+      &__tweet-bri{
+    
+    }
+      &__tweet-bri-profile{
+    
+    }
+      &__tweet-bri-name{
+    
+    }
+      &__tweet-bri-comment{
+    
+    }
+      &__tweet-carol{
+    
+    }
+      &__tweet-carol-profile{
+    
+    }
+      &__tweet-carol-name{
+    
+    }
+      &__tweet-carol-comment{
+    
+    }
+      &__tweet-wes{
+    
+    }
+      &__tweet-wes-profile{
+    
+    }
+      &__tweet-wes-name{
+    
+    }
+      &__tweet-wes-comment{
+    
+    }
+      &__tweet-traver{
+    
+    }
+      &__tweet-traver-profile{
+    
+    }
+      &__tweet-traver-name{
+    
+    }
+      &__tweet-traver-comment{
+    
+    }
+
+    
 }
