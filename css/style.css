@@ -3,6 +3,26 @@ body {
   font-weight: 400;
 }
 
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile h4 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 9px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #050038;
+}
+.profile p {
+  line-height: 24px;
+  color: #596068;
+}
+
 .container {
   max-width: 1292px;
   margin: 0 auto;
@@ -252,5 +272,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
+}
+.main__testimonials-tweet {
+  max-width: 420px;
+}
+.main__tweet-logo img {
+  vertical-align: bottom;
 }/*# sourceMappingURL=style.css.map */
