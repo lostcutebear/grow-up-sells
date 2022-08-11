@@ -1,9 +1,14 @@
 // Linked AOS library allows to animate different blocks of webpage
 AOS.init(); 
 
-$('.main__partners-wrapper').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1
-});
+$(document).ready(function () {
+    $('.main__partners-img-wrapper').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 5,
+        slidesToScroll: 1
+    });
+})
+
 
