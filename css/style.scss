@@ -12,6 +12,22 @@ body {
     font-weight: 400;
 }
 
+.comment {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #050038;
+
+    & p:nth-child(1) {
+        margin-bottom: 30px;
+    }
+}
+
+.profile-wrapper { 
+    @include flex;
+    justify-content: space-between;
+}
+
 .profile {
     @include flex;
     gap: 10px;
@@ -19,7 +35,7 @@ body {
     & h4 {
         @include flex;
         gap: 9px;
-        margin-bottom: 9px;
+        margin-bottom: 5px;
         line-height: 24px;
         font-weight: 500;
         font-family: $jakatra;
@@ -336,6 +352,7 @@ body {
         }
 
         & h3 {
+            margin-bottom: 70px;
             padding: 40px 0 70px 0;
             font-size: 72px;
             font-family: $jakatra;
@@ -351,14 +368,21 @@ body {
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
+        gap: 30px;
     }
 
     &__testimonials-tweet {
+        padding: 20px;
         max-width: 420px;
+        height: 370px; 
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
     }
-      &__tweet-lisa-name{
-    
-    }
+
+      &__tweet-lisa-name {
+
+      }
       &__tweet-logo{
         & img {
             vertical-align: bottom;
