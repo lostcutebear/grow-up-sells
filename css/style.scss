@@ -389,7 +389,7 @@ body {
 }
 
 .footer {
-    padding: 150px 0 25px 0;
+    padding-top: 150px;
     background: #130C3A;
     &__container{
         max-width: 1200px;
@@ -484,7 +484,7 @@ body {
 
     &__bottom {
         background: #0F0937;
-
+        padding: 20px 0;
         & p {
             text-align: center;
             font-family: $roboto;
