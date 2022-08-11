@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Develop, Build, Update">
     <link rel="shortcut icon" href="./img/icons8-globe-16.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Plus+Jakarta+Sans:wght@500;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
     <header class="header">
         <div class="header__container">
             <div class="header__nav">
-                <nav>
+                <nav data-aos="fade-down">
                     <a href="#" class="header__nav-logo">HelloUI</a>
                     <ul class="header__nav-list">
                         <li><a href="#" class="header__nav-link">Docs</a></li>
@@ -39,7 +40,7 @@
         <div class="main__container">
             <section class="main__grow">
                 <div class="main__grow-container">
-                    <div class="main__grow-wrapper">
+                    <div class="main__grow-wrapper" data-aos="fade-up">
                         <h1 class="main__grow-title">Grow up your sells with us.</h1>
                         <p class="main__grow-text">Build one project that runs natively on all your term now users' devices to turn for that you can do.</p>
                         <div class="main__grow-buttons">
@@ -50,7 +51,8 @@
                 </div>
             </section>
             <section class="main__privary">
-                <div class="main__privary-container">
+                <div class="main__privary-container" data-aos="fade-up"
+                data-aos-duration="400">
                     <img src="./img/download 1.jpg" alt="privary">
                 </div>
             </section>
@@ -61,22 +63,46 @@
                             <p>More than 1.8 million people across 50,000 companies choose Spellon</p>
                         </div>
                         <div class="main__partners-img-wrapper">
-                            <div class="main__partners-img">
+                            <div class="main__partners-img" 
+                            data-aos="fade-right"
+                            data-aos-easing="linear"
+                            data-aos-delay="20"
+                            data-aos-offset="0">
                                 <img src="./img/jll-black.svg" alt="">
                             </div>
-                            <div class="main__partners-img">
+                            <div class="main__partners-img" 
+                            data-aos="fade-right"
+                            data-aos-easing="linear"
+                            data-aos-delay="60"
+                            data-aos-offset="0">
                                 <img src="./img/netflix-black 1.svg" alt="">
                             </div>
-                            <div class="main__partners-img">
+                            <div class="main__partners-img" 
+                            data-aos="fade-right"
+                            data-aos-easing="linear"
+                            data-aos-delay="100"
+                            data-aos-offset="0">
                                 <img src="./img/hubspot-black 1.svg" alt="">
                             </div>
-                            <div class="main__partners-img">
+                            <div class="main__partners-img" 
+                            data-aos="fade-left"
+                            data-aos-easing="linear"
+                            data-aos-delay="20"
+                            data-aos-offset="0">
                                 <img src="./img/atlassian-black 1.svg" alt="">
                             </div>
-                            <div class="main__partners-img">
+                            <div class="main__partners-img" 
+                            data-aos="fade-left"
+                            data-aos-easing="linear"
+                            data-aos-delay="60"
+                            data-aos-offset="0">
                                 <img src="./img/juniper-networks-black 1.svg" alt="">
                             </div>
-                            <div class="main__partners-img">
+                            <div class="main__partners-img" 
+                            data-aos="fade-left"
+                            data-aos-easing="linear"
+                            data-aos-delay="100"
+                            data-aos-offset="0">
                                 <img src="./img/lacoste-black 1.svg" alt="">
                             </div>
                         </div>
@@ -97,7 +123,7 @@
             </section>
             <section class="main__develop">
                 <div class="main__develop-container container">
-                    <div class="main__develop-wrapper">
+                    <div class="main__develop-wrapper" data-aos="fade-left">
                         <div class="main__develop-text">
                             <h3 class="main__develop-title">Develop</h3>
                             <p class="main__develop-desc">Develop for all your users' devices with just one codebase. Add fast refresh, true native capabilities, and your creativity, and you'll have the app your users want in no time</p>
@@ -111,7 +137,7 @@
             </section>
             <section class="main__build">
                 <div class="main__build-container">
-                    <div class="main__build-wrapper">
+                    <div class="main__build-wrapper" data-aos="fade-right">
                         <div class="main__build-img">
                             <img src="./img/build-img.jpg" alt="development">
                         </div>
@@ -126,7 +152,7 @@
             </section>
             <section class="main__update">
                 <div class="main__update-container container">
-                    <div class="main__update-wrapper">
+                    <div class="main__update-wrapper" data-aos="fade-left">
                         <div class="main__update-text">
                             <h3 class="main__update-title">Update</h3>
                             <p class="main__update-desc">Develop for all your users' devices with just one codebase. Add fast refresh, true native capabilities, and your creativity, and you'll have the app your users want in no time.
@@ -146,7 +172,11 @@
                         <h3>Don’t just take our word for it</h3>
                     </div>
                     <div class="main__testimonials-tweet-wrapper">
-                        <div class="main__testimonials-tweet">
+                        <div class="main__testimonials-tweet" 
+                        data-aos="fade-up-right"
+                        data-aos-easing="linear"
+                        data-aos-delay="50"
+                        data-aos-offset="0">
                             <div class="main__tweet-lisa wrapper">
                                 <div class="main__tweet-lisa-profile-wrapper profile-wrapper">
                                     <div class="main__tweet-lisa-profile profile">
@@ -179,7 +209,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main__testimonials-tweet">
+                        <div class="main__testimonials-tweet" 
+                        data-aos="fade-up-right"
+                        data-aos-easing="linear"
+                        data-aos-delay="150"
+                        data-aos-offset="0">
                             <div class="main__tweet-bri wrapper">
                                 <div class="main__tweet-bri-profile-wrapper profile-wrapper">
                                     <div class="main__tweet-bri-profile profile">
@@ -205,7 +239,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main__testimonials-tweet">
+                        <div class="main__testimonials-tweet" 
+                        data-aos="fade-up-right"
+                        data-aos-easing="linear"
+                        data-aos-delay="250"
+                        data-aos-offset="0">
                             <div class="main__tweet-carol wrapper">
                                 <div class="main__tweet-carol-profile-wrapper profile-wrapper">
                                     <div class="main__tweet-carol-profile profile">
@@ -236,7 +274,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main__testimonials-tweet">
+                        <div class="main__testimonials-tweet" 
+                        data-aos="fade-up-left"
+                        data-aos-easing="linear"
+                        data-aos-delay="50"
+                        data-aos-offset="0">
                             <div class="main__tweet-wes wrapper">
                                 <div class="main__tweet-wes-profile-wrapper profile-wrapper">
                                     <div class="main__tweet-wes-profile profile">
@@ -262,7 +304,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main__testimonials-tweet">
+                        <div class="main__testimonials-tweet" 
+                        data-aos="fade-up-left"
+                        data-aos-easing="linear"
+                        data-aos-delay="150"
+                        data-aos-offset="0">
                             <div class="main__tweet-lisa wrapper">
                                 <div class="main__tweet-lisa-profile-wrapper profile-wrapper">
                                     <div class="main__tweet-lisa-profile profile">
@@ -291,7 +337,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="main__testimonials-tweet">
+                        <div class="main__testimonials-tweet" 
+                        data-aos="fade-up-left"
+                        data-aos-easing="linear"
+                        data-aos-delay="250"
+                        data-aos-offset="0">
                             <div class="main__tweet-traver wrapper">
                                 <div class="main__tweet-traver-profile-wrapper profile-wrapper">
                                     <div class="main__tweet-traver-profile profile">
@@ -330,7 +380,7 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="footer__container">
+        <div class="footer__container" data-aos="fade-up">
             <div class="footer__title">
                 <p>It’s easy to  get started. Start now.</p>
             </div>
@@ -378,11 +428,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer__bottom">
-                <p>&copy;2021 Hello All right reserved.</p>
-            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy;2021 Hello All right reserved.</p>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/slick.min.js"></script>
