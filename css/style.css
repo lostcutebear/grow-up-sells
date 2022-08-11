@@ -13,6 +13,13 @@ body {
   margin-bottom: 30px;
 }
 
+.list {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
 .profile-wrapper {
   display: flex;
   align-items: center;
@@ -300,4 +307,104 @@ body {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+.footer {
+  padding: 150px 0 25px 0;
+  background: #130C3A;
+}
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer__title {
+  width: 639px;
+  margin: 0 auto;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 85px;
+  text-align: center;
+  color: #fff;
+}
+.footer__form {
+  margin: 40px 0 150px 0;
+  text-align: center;
+}
+.footer__form input {
+  padding: 24px 30px;
+  width: 528px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px 0px 0px 10px;
+  color: #c1c1c1;
+  font-size: 22px;
+  line-height: 32px;
+  outline: none;
+}
+.footer__form input::-moz-placeholder {
+  color: #c1c1c1;
+}
+.footer__form input:-ms-input-placeholder {
+  color: #c1c1c1;
+}
+.footer__form input::placeholder {
+  color: #c1c1c1;
+}
+.footer__form button {
+  cursor: pointer;
+  margin-left: -5px;
+  width: 221px;
+  padding: 25px 0px;
+  background: #0555FF;
+  border-radius: 0px 10px 10px 0px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__wrapper div:not(:first-child) {
+  margin-top: 15px;
+}
+.footer__wrapper a {
+  color: #7884A6;
+}
+.footer__wrapper h4 {
+  margin-bottom: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25.3px;
+  color: #fff;
+}
+.footer__contacts p:not(:first-child) {
+  margin-bottom: 10px;
+}
+.footer__contacts img {
+  margin-top: 27px;
+}
+.footer__contacts-logo {
+  color: #fff;
+  margin-bottom: 39px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.89px;
+}
+.footer__contacts-address, .footer__contacts-phone, .footer__contacts-email {
+  color: #7884A6;
+  line-height: 28px;
+}
+.footer__bottom {
+  background: #0F0937;
+}
+.footer__bottom p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 18.75px;
+  background: #0F0937;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */

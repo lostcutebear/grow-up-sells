@@ -23,6 +23,13 @@ body {
     }
 }
 
+.list{
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .profile-wrapper { 
     @include flex;
     justify-content: space-between;
@@ -378,5 +385,113 @@ body {
         background: #fff;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 10px;
+    }
+}
+
+.footer {
+    padding: 150px 0 25px 0;
+    background: #130C3A;
+    &__container{
+        max-width: 1200px;
+        margin: 0 auto;
+  }
+    &__title {
+        width: 639px;
+        margin: 0 auto;
+        font-family: $jakatra;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 85px;
+        text-align: center;
+        color: #fff;
+  }
+    &__form{
+        margin: 40px 0 150px 0;
+        text-align: center;
+
+        & input {
+            padding: 24px 30px;
+            width: 528px;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 10px 0px 0px 10px;
+            color: #c1c1c1;
+            font-size: 22px;
+            line-height: 32px;
+            outline: none;
+            &::placeholder {
+                color: #c1c1c1;
+            }
+        }
+
+        & button {
+            cursor: pointer;
+            margin-left: -5px;
+            width: 221px;
+            padding: 25px 0px;
+            background: #0555FF;
+            border-radius: 0px 10px 10px 0px;
+            color: #fff;
+            font-size: 22px;
+            line-height: 32px;
+            text-align: center;
+        }
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+
+        & div:not(:first-child) {
+            margin-top: 15px;
+        }
+        & a {
+            color: #7884A6;
+        }
+        
+        & h4 {
+            margin-bottom: 30px;
+            font-family: $jakatra;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25.3px;
+            color: #fff;
+        }
+    }
+
+    &__contacts{
+        & p:not(:first-child) {
+            margin-bottom: 10px;
+        }
+
+        & img {
+            margin-top: 27px;
+        }
+
+    }
+
+    &__contacts-logo{
+        color: #fff;
+        margin-bottom: 39px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 33.89px;
+    }
+
+    &__contacts-address, &__contacts-phone, &__contacts-email{
+        color: #7884A6;
+        line-height: 28px;
+    }
+
+    &__bottom {
+        background: #0F0937;
+
+        & p {
+            text-align: center;
+            font-family: $roboto;
+            line-height: 18.75px;
+            background: #0F0937;
+            color: #FFFFFF;
+        }
+
     }
 }
