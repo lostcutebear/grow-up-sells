@@ -10,6 +10,15 @@ $roboto: 'Roboto', sans-serif;
 body {
     font-family: $inter;
     font-weight: 400;
+    user-select: none;
+}
+
+#slick-slide-control01 {
+    background: rgba(5, 0, 56, 0.5);
+}
+
+#slick-slide-control02 {
+    background: #C4C4C4;
 }
 
 .comment {
@@ -21,6 +30,26 @@ body {
     & p:nth-child(1) {
         margin-bottom: 30px;
     }
+}
+
+
+.slick-dots {
+    @include flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 5px;
+    
+    & li button {
+        border: none;
+        font-size: 0; 
+        width: 30px;
+        height: 3px;
+        border-radius: 1px;
+    }
+}
+
+.slick-active button {
+    background: #050038;
 }
 
 .list{
@@ -216,6 +245,10 @@ body {
         max-width: 956px;
         margin: 0 auto;
     }
+
+    &__partners-wrapper {
+        margin-bottom: 100px;
+    }
     
     &__partners-text {
         margin-bottom: 28px;
@@ -230,6 +263,10 @@ body {
         gap: 51.83px;
     }
 
+    &__horizontal-line {
+        max-width: 1321px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
 
 
 
@@ -391,10 +428,11 @@ body {
 .footer {
     padding-top: 150px;
     background: #130C3A;
-    &__container{
+    &__container {
         max-width: 1200px;
         margin: 0 auto;
-  }
+    }
+
     &__title {
         width: 639px;
         margin: 0 auto;
@@ -404,8 +442,9 @@ body {
         line-height: 85px;
         text-align: center;
         color: #fff;
-  }
-    &__form{
+    }
+
+    &__form {
         margin: 40px 0 150px 0;
         text-align: center;
 
@@ -437,6 +476,7 @@ body {
             text-align: center;
         }
     }
+
     &__wrapper{
         display: flex;
         justify-content: space-between;
@@ -458,7 +498,7 @@ body {
         }
     }
 
-    &__contacts{
+    &__contacts {
         & p:not(:first-child) {
             margin-bottom: 10px;
         }
@@ -466,10 +506,9 @@ body {
         & img {
             margin-top: 27px;
         }
-
     }
 
-    &__contacts-logo{
+    &__contacts-logo {
         color: #fff;
         margin-bottom: 39px;
         font-size: 28px;
@@ -492,6 +531,13 @@ body {
             background: #0F0937;
             color: #FFFFFF;
         }
+    }
 
+    &__partners-img-wrapper {
+        margin: 0 -27px;
+        @include flex;
+        & div {
+            margin: 0 27px;
+        }
     }
 }
