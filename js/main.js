@@ -4,10 +4,11 @@ AOS.init();
 $(document).ready(function () {
     $('.main__partners-img-wrapper').slick({
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 300,
-        slidesToShow: 5,
-        slidesToScroll: 1
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        arrows: false,
     });
 })
 
